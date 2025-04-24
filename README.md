@@ -1,4 +1,3 @@
-```markdown
 # Java Basics Repository 🖥️
 
 Repositório dedicado ao aprendizado e prática de conceitos fundamentais de Java.  
@@ -9,7 +8,6 @@ Aqui você encontrará projetos progressivos para dominar sintaxe, tipos de dado
 
 ## 📂 Estrutura do Repositório
 
-```
 java-basics/
 ├── .vscode/            # Configurações do VS Code
 ├── bin/                # Arquivos compilados (.class)
@@ -18,7 +16,6 @@ java-basics/
 │   ├── HelloWorld/     # Primeiro projeto
 │   └── SintaxeETiposDeDados/  # Exercícios de sintaxe
 └── README.md           # Documentação de cada projeto
-```
 
 ## 🚀 Projetos Atuais
 
