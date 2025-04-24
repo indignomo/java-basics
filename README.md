@@ -88,4 +88,3 @@ Este projeto está em processo de definição de licença. Contribuições tempo
 ---
 
 Feito com ❤️ por Vinicius Moura - [📚 Meu Perfil GitHub](https://github.com/indignomo)
-```
