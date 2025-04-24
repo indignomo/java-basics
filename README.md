@@ -6,8 +6,9 @@ Aqui você encontrará projetos progressivos para dominar sintaxe, tipos de dado
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
 ![Java](https://img.shields.io/badge/Java-17%2B-orange)
 
-## 📂 Estrutura do Repositório
 
+## 📂 Estrutura do Repositório
+```
 java-basics/
 ├── .vscode/            # Configurações do VS Code
 ├── bin/                # Arquivos compilados (.class)
@@ -16,6 +17,7 @@ java-basics/
 │   ├── HelloWorld/     # Primeiro projeto
 │   └── SintaxeETiposDeDados/  # Exercícios de sintaxe
 └── README.md           # Documentação de cada projeto
+```
 
 ## 🚀 Projetos Atuais
 
