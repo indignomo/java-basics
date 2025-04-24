@@ -1,36 +1,61 @@
-```markdown
-# Exercício Java: Calculadora de Área de Círculo
 
-Exercício prático de Java que demonstra conceitos básicos como sintaxe, variáveis, operadores, tipos de dados e I/O (entrada e saída).  
+# Exercício Java: Sintaxe Básica e Tipos de Dados
+
+Exercício prático de Java que demonstra conceitos básicos como sintaxe, variáveis, operadores, tipos de dados e I/O.  
 **Parte do repositório de exercícios básicos de Java** - novos exemplos serão adicionados progressivamente.
 
 ---
 
-## 🔍 Visão Geral
+## 🔍 Visão Geral Atualizada
 
-Este programa calcula a área de um círculo com base no raio fornecido pelo usuário.  
+Este projeto agora inclui múltiplas funcionalidades:
+1. Sistema de cumprimentos personalizado
+2. Calculadora de área de círculo
+3. Estrutura para calculadora básica (em desenvolvimento)
+
 Objetivos principais:
-- Demonstrar interação básica com o usuário (input/output)
-- Praticar o uso de variáveis e operadores matemáticos
-- Ilustrar a organização simples de classes em Java
+- Praticar interação com usuário via terminal
+- Demonstrar uso de diferentes tipos de dados
+- Implementar múltiplas classes com responsabilidades específicas
 
 ---
 
-## 📁 Estrutura do Código
+## 📁 Nova Estrutura do Código
 
 ### 1. Classe Principal (`App.java`)
 ```java
 public class App {
     public static void main(String[] args) throws Exception {
         CalculadoraAreaCirculo calculadora = new CalculadoraAreaCirculo();
+        Cumprimentar bemVindo = new Cumprimentar();
+        
+        bemVindo.cumprimentarVoce();
         calculadora.calcularArea();
     }
 }
 ```
-- Ponto de entrada do programa
-- Cria uma instância da calculadora e executa o cálculo
+- Coordena o fluxo do programa
+- Instancia e utiliza múltiplas classes
 
-### 2. Classe da Calculadora (`CalculadoraAreaCirculo.java`)
+### 2. Classe de Cumprimentos (`Cumprimentar.java`)
+```java
+import java.util.Scanner;
+
+public class Cumprimentar {
+    Scanner input = new Scanner(System.in);
+    
+    public void cumprimentarVoce() {
+        System.out.println("Olá! Qual é seu nome?");
+        String nome = input.nextLine();
+        System.out.println("Bem-vindo, "+ nome + "! É um prazer conhecê-lo.");
+    }
+}
+```
+- Coleta entrada do tipo String
+- Demonstra concatenação de strings
+- Usa nextLine() para leitura completa
+
+### 3. Classe de Cálculo de Área (`CalculadoraAreaCirculo.java`)
 ```java
 import java.util.Scanner;
 
@@ -39,7 +64,7 @@ public class CalculadoraAreaCirculo {
     double raio;
     Scanner input = new Scanner(System.in);
 
-    public void calcularArea(){
+    public void calcularArea() {
         System.out.println("Insira o raio da circunferência: ");
         this.raio = input.nextInt();
         double area = pi * (raio * raio);
@@ -47,78 +72,61 @@ public class CalculadoraAreaCirculo {
     }
 }
 ```
-- Utiliza `Scanner` para receber input do usuário
-- Calcula a área usando a fórmula `π * r²`
-- Exibe o resultado formatado
+- Mantém sua funcionalidade original
+- Demonstra conversão implícita de tipos
+
+### 4. Classe da Calculadora Básica (`CalculadoraBasica.java`)
+```java
+// Em desenvolvimento - futuras implementações:
+// - Operações básicas (+, -, *, /)
+// - Manipulação de múltiplos operandos
+// - Tratamento de erros
+```
+- Preparação para expansão futura
+- Espaço reservado para novos conceitos
 
 ---
 
-## 🛠️ Como Executar
+## 🛠️ Como Executar (Atualizado)
 
-1. **Pré-requisitos**:
-   - JDK 8 ou superior instalado
-   - Terminal/Command Prompt
-
-2. **Passos**:
-```bash
-# Compilar o código
-javac App.java
-
-# Executar o programa
-java App
+3. **Novo Fluxo do Programa**:
 ```
-
-3. **Fluxo do Programa**:
-```
+Olá! Qual é seu nome?
+Vinicius
+Bem-vindo, Vinicius! É um prazer conhecê-lo.
 Insira o raio da circunferência: 5
 A área da circunferência é de: 78.5
 ```
 
 ---
 
-## 📌 Conceitos Aplicados
+## 📌 Conceitos Aplicados (Expandido)
 
-- **Variáveis**: 
-  - `float pi` (constante)
-  - `double raio` (valor dinâmico)
-  
-- **Operadores**:
-  - Multiplicação (`*`)
-  - Atribuição (`=`)
+- **Novos Elementos Adicionados**:
+  - Uso do `nextLine()` para strings completas
+  - Concatenação de strings com `+`
+  - Tipo `String` para manipulação de texto
+  - Coordenação entre múltiplas classes
+  - Separação de responsabilidades
 
-- **Tipos de Dados**:
-  - `float` para precisão simples
-  - `double` para precisão dupla
-
-- **I/O Básico**:
-  - `Scanner` para leitura de entrada
-  - `System.out.println` para exibição de resultados
+- **Em Preparação** (CalculadoraBasica):
+  - Estrutura básica de classes
+  - Planejamento de funcionalidades
+  - Documentação de código futuro
 
 ---
 
-## 📂 Sobre o Repositório
+## 🔮 Próximas Atualizações
 
-- **Organização**:
-  - Cada exercício em diretório separado
-  - Progressão gradual de complexidade
-  - Foco em fundamentos da linguagem
-
-- **Próximos Tópicos**:
-  - Controle de fluxo (if/else, loops)
-  - Métodos estáticos
-  - Manipulação de strings
-
----
-
-## 🤝 Como Contribuir
-
-1. Faça um fork do repositório
-2. Adicione novos exercícios em pastas separadas
-3. Mantenha a estrutura atual de documentação
-4. Envie um Pull Request com descrição clara
+- Implementação completa da CalculadoraBasica:
+  - Operações aritméticas básicas
+  - Controle de fluxo para seleção de operações
+  - Validação de entradas numéricas
+- Aprimoramento da interação com usuário:
+  - Menus interativos
+  - Loops para repetição de operações
 
 ---
 
 Desenvolvido com ☕ por Vinicius Moura. Bons estudos!
-``` 
-
+```
