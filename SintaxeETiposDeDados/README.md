@@ -78,7 +78,7 @@ public class CalculadoraAreaCirculo {
 ### 4. Classe da Calculadora Básica (`CalculadoraBasica.java`)
 ```java
 // Disponível através do caminho abaixo:
-[Ver Calculadora Básica](BasicCalculator)
+[Ver README Calculadora Básica](BasicCalculator/README.md)
 
 ---
 
