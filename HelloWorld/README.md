@@ -1,4 +1,4 @@
-```markdown
+
 # Java Basic Exercises Repository
 
 Repositório dedicado a exercícios básicos em Java, ideal para iniciantes que estão aprendendo a linguagem. Aqui você encontrará exemplos simples e fundamentais para entender os conceitos iniciais da programação em Java.
