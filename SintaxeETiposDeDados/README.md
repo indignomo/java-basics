@@ -77,13 +77,8 @@ public class CalculadoraAreaCirculo {
 
 ### 4. Classe da Calculadora Básica (`CalculadoraBasica.java`)
 ```java
-// Em desenvolvimento - futuras implementações:
-// - Operações básicas (+, -, *, /)
-// - Manipulação de múltiplos operandos
-// - Tratamento de erros
-```
-- Preparação para expansão futura
-- Espaço reservado para novos conceitos
+// Disponível através do caminho abaixo:
+[Ver Calculadora Básica](BasicCalculator)
 
 ---
 
