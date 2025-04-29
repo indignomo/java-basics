@@ -1,22 +1,18 @@
 public class Calculadora {
 
-    int a;
-    int b;
-
-
-    public int soma(){
+    public int soma(int a, int b){
         return a + b;
     }
 
-    public int subtracao(){
+    public int subtracao(int a, int b){
         return a - b;
     }
 
-    public int multiplicacao(){
+    public int multiplicacao(int a, int b){
         return a * b;
     }
 
-    public int divisao(){
+    public int divisao(int a, int b){
         return a / b;
     }
 
