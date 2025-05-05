@@ -14,7 +14,7 @@ public class App {
         b = input.nextInt();
 
         System.out.println("Valor computado.");
-        System.out.println("Selecione a operação desejada:\n1. Soma\n2. Subtração\n3. Multiplicaçãon\n4.Divisão");
+        System.out.println("Selecione a operação desejada:\n1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão");
         double resposta = input.nextInt();
 
         if(resposta == 1){
