@@ -76,14 +76,8 @@ public class CalculadoraAreaCirculo {
 - Demonstra conversão implícita de tipos
 
 ### 4. Classe da Calculadora Básica (`CalculadoraBasica.java`)
-```java
-// Em desenvolvimento - futuras implementações:
-// - Operações básicas (+, -, *, /)
-// - Manipulação de múltiplos operandos
-// - Tratamento de erros
-```
-- Preparação para expansão futura
-- Espaço reservado para novos conceitos
+// Disponível aqui:
+[CALCULADORA BÁSICA](https://github.com/indignomo/java-basics/tree/main/BasicCalculator)
 
 ---
 

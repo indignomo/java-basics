@@ -15,7 +15,8 @@ java-basics/
 ├── lib/                # Dependências externas
 ├── src/                # Código fonte principal
 │   ├── HelloWorld/     # Primeiro projeto
-│   └── SintaxeETiposDeDados/  # Exercícios de sintaxe
+│   ├── SintaxeETiposDeDados/  # Exercícios de sintaxe
+|   └── BasicCalculator/  # Calculadora Básica
 └── README.md           # Documentação de cada projeto
 ```
 
@@ -24,7 +25,7 @@ java-basics/
 ### 1. HelloWorld
 - **Objetivo**: Primeiro programa em Java
 - **Conceitos**: Estrutura básica de classe, método main, saída console
-- [Ver README](/src/HelloWorld/README.md)
+- [Ver README](HelloWorld/README.md)
 
 ### 2. SintaxeETiposDeDados
 - **Objetivo**: Praticar fundamentos da linguagem
@@ -33,7 +34,16 @@ java-basics/
   - Operadores aritméticos
   - Conversão de tipos
   - Input básico com Scanner
-- [Ver README](/src/SintaxeETiposDeDados/README.md)
+- [Ver README](SintaxeETiposDeDados/README.md)
+
+### 2. SintaxeETiposDeDados
+- **Objetivo**: Projeto Simples de uma Calculadora para exercitar os conceitos aprendidos nos temas acima
+- **Conceitos**:
+  - Tipos primitivos (int, float, double)
+  - Operadores aritméticos
+  - Conversão de tipos
+  - Input básico com Scanner
+- [Ver README](BasicCalculator/README.md)
 
 ## ⚙️ Como Utilizar
 
