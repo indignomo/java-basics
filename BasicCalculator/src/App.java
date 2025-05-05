@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Calculadora calculadora = new Calculadora();
-        int a;
-        int b;
-        int resultado;
+        double a;
+        double b;
+        double resultado;
 
         System.out.println("Calculadora básica. Insira o valor A:");
         Scanner input = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class App {
 
         System.out.println("Valor computado.");
         System.out.println("Selecione a operação desejada:\n1. Soma\n2. Subtração\n3. Multiplicaçãon\n4.Divisão");
-        int resposta = input.nextInt();
+        double resposta = input.nextInt();
 
         if(resposta == 1){
             resultado = calculadora.soma(a, b);
